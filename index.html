@@ -1,0 +1,724 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bureau</title>
+    <link rel="shortcut icon" href="img/download (16).svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/52e3097895.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="lg:fixed lg:flex lg:justify-center lg:gap-40 lg:w-full lg:h-full lg:-z-0 hidden">
+    <div class="w-[2px] h-full bg-slate-100"></div>
+    <div class="w-[2px] h-full bg-slate-100"></div>
+    <div class="w-[2px] h-full bg-slate-100"></div>
+    <div class="w-[2px] h-full bg-slate-100"></div>
+    <div class="w-[2px] h-full bg-slate-100"></div>
+    <div class="w-[2px] h-full bg-slate-100"></div>
+    <div class="w-[2px] h-full bg-slate-100"></div>
+   </div>
+   <!-- header start -->
+
+   <header class="relative z-10 py-3 px-[3%] lg:px-0">
+    <div class="lg:max-w-[1200px] lg:mx-auto">
+       <nav class="flex justify-between items-center">
+        <!-- logo -->
+        <div>
+          <a href="#" class="flex items-center ">
+            <span style="font-family: var(--ff-base)" class="italic font-semibold">the</span>
+            <span class="font-bold text-2xl lg:text-3xl text-slate-950 me-2 lg:me-[1.2rem]">Bureau</span>
+            <img src="img/download (16).svg" alt="logo svg" class="size-[1.8rem]">
+        </div>
+        <!-- menu_bar -->
+        <div class="lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 lg:d-none">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>          
+        </div>
+         <!-- links -->
+        <div class="hidden lg:block">
+          <ul class="px-[1%] lg:px-0 flex items-center">
+            <li>
+              <a href="#" class="transition-all duration-500 hover:underline font-bold text-slate-950">About</a>
+            </li>
+            <li class="my-2 lg:my-0 lg:mx-12">
+              <a href="#" class="transition-all duration-500 hover:underline font-bold text-slate-950">Services</a>
+            </li>
+            <li>
+              <a href="#" class="transition-all duration-500 hover:underline font-bold text-slate-950">Projects</a>
+            </li>
+            <li class="my-2 lg:my-0 lg:mx-12">
+              <a href="#" class="transition-all duration-500 hover:underline font-bold text-slate-950">Blog</a>
+            </li>
+            <li>
+              <a href="#" class="transition-all duration-500 hover:underline font-bold text-slate-950">Career</a>
+            </li>
+            <li class="ms-[4rem] me-2">
+              <a href="#" role="button" class=" w-full flex items-center justify-center text-slate-950 p-2 ps-5 my-4 lg:my-0 lg:me-4 border-2 border-black rounded-full font-bold group transition-all duration-500 hover:bg-slate-950 hover:text-white">
+                Contact
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden lg:inline-flex size-0 ms-2 transition-all duration-300 group-hover:size-5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" role="button" class=" w-full flex items-center bg-slate-950 text-white p-2 ps-5 font-bold rounded-full group">
+                Get Template
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden lg:inline-flex size-0 ms-2 transition-all duration-500 group-hover:size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+       </nav> 
+    </div>
+   </header>
+
+   <!-- header end -->
+
+   <!-- hero section start -->
+
+   <section class="relative z-10 py-[7rem] px-[3%] lg:px-0">
+    <div class="container lg:max-w-[900px] mx-auto">
+      <p class=" mb-5 inline-flex items-center border-2 border-black text-slate-950 hover:text-white transition-all duration-500 font-bold rounded-full py-1 px-2 hover:bg-slate-950">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" flex-inline size-4 me-1 tranisiton-all duration-500">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+          </svg>
+        </span>
+        Palo Alto, CA
+      </p>
+      <h1 class=" text-slate-950 max-w-screen-sm lg:max-w-xxl text-3xl md:text-[3rem] lg:text-[4.7rem] leading-normal font-bold" style="font-family: var(--ff-accent)">
+        We <span style="font-family: var(--ff-base)" class="italic">are a</span> Strategy <span style="font-family: var(--ff-base)"class="italic">&</span> Design Studio
+      </h1>
+      <p class="md:font-semibold md:text-2xl text-slate-950 mx-w-screen-sm lg:max-w-xl">
+        We are helping companies bring new products and services to market.Smart, collaborative, and fun.
+      </p>
+      <div class="flex flex-col md:flex-row gap-6 md:gap-0 md:justify-between items-center mt-10">
+        <div class="flex items-center">
+          <a href="#"class="size-[30px] rounded-full bg-black flex justify-center items-center text-white">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="#"class="mx-2 size-[30px] rounded-full bg-black flex justify-center items-center text-white">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+          <a href="#"class="size-[30px] rounded-full bg-black flex justify-center items-center text-white">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <a href="#" role="button" class=" w-full md:w-[max-content] inline-block text-center md:flex md:items-center px-4 py-2 border-2 border-black rounded-full text-slate-950 text-2xl font-semibold group transition-all duration-400 hover:bg-slate-950 hover:text-white">About us 
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" ms-2 pt-2 size-0 transition-all duration-400 lg:group-hover:size-8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+          </svg>          
+        </a>
+      </div>
+    </div>
+   </section>
+
+   <!-- hero section end -->
+
+   <!-- slider section start -->
+
+   <section class="relative z-10 overflow-hidden 
+   md:after:absolute md:after:right-0 md:after:top-0 md:after:w-56 md:after:h-full md:after:bg-gradient-to-l md:after:from-white md:after:to-transparent
+   md:before:absolute md:before:left-0 md:before:top-0 before:w-56 md:before:h-full md:before:bg-gradient-to-r md:before:from-white md:beofre:to-transparent md:before:z-10
+   ">
+    <div class="flex gap-4 slider">
+      <img src="img/slide_one.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_two.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_three.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_four.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_five.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_six.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_one.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_two.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_three.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_four.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_five.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+      <img src="img/slide_six.jpg" alt="slide_img"class="w-[21.875rem] h-[20rem] object-cover flex-shrink-0">
+    </div>
+   </section>
+
+   <!-- slider section end -->
+
+<!-- main start -->
+
+<main>
+     <!-- clients section start -->
+
+     <section class="relative z-10 my-[3rem] px-[3%] md:px-[1%]">
+      <div class="max-w-screen-sm md:max-w-[900px] mx-auto border-b-4 border-slate-950">
+        <h3 class="text-slate-950 text-2xl font-semibold mb-[2rem] text-center md:text-left relative md:inline-block
+        md:before:absolute md:before:left-0 md:before:bottom-[-.875rem] md:before:w-[80%] md:before:h-[4px] md:before:bg-green-800 md:before:rounded-full">
+          Our Clients
+        </h3>
+        <div class="pb-[3rem] flex flex-col md:flex-row justify-center md:justify-between items-center">
+          <a href="#">
+            <img src="img/facebook.svg" alt="fb_text_logo">
+          </a>
+          <a href="#" class="my-5 md:my-0">
+            <img src="img/google.svg" alt="google_text_logo">
+          </a>
+          <a href="#">
+            <img src="img/Logitech.svg" alt="logitech_text_logo">
+          </a>
+          <a href="#" class="my-5 md:my-0">
+            <img src="img/Linkedin.svg" alt="linkedin_text_logo">
+          </a>
+          <a href="#">
+            <img src="img/philips.svg" alt="philips_text_logo">
+          </a>
+        </div>
+      </div>
+     </section>
+  
+     <!-- clients section end -->
+  
+     <!-- services section start -->
+  
+     <section class="my-[2rem] px-[3%] md:px-[1%] relative z-10">
+      <div class="max-w-screen-sm md:max-w-[900px] mx-auto border-b-4 border-slate-950">
+        <div class="mb-[5rem]">
+          <p class="inline-block italic text-slate-950 font-semibold text-2xl">
+            Services
+          </p>
+          <h2 class="text-5xl font-bold text-slate-950 my-3">
+            What we do
+          </h2>
+          <p class="text-slate-950 text-2xl">
+            This way, we can cut out all the project management and focus just on the design processes.
+          </p>
+        </div>
+        <!-- provided services -->
+        <div class="px-[1%]">
+          <div class="group transition-all duration-500">
+              <a href="#" class="duration-500 md:flex md:justify-between md:items-center group-hover:translate-y-[-2rem]">
+                <div>
+                  <h2 class="font-bold text-3xl md:text-5xl inline-flex">Art & Culture
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 mt-[10px] ms-2 hidden md:group-hover:inline-flex tansition-all duration-500">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                    </svg>            
+                  </h2>
+                  <p class="md:text-2xl opacity-100 md:opacity-0 group-hover:opacity-100 duration-500">
+                    Connecting people through art, stories, food, and culture
+                  </p>
+                </div>
+                <div class="hidden md:block">
+                  <img src="https://framerusercontent.com/images/c1IDFOlKiZMtWILMJUcX8Sgfw.png" alt=""class="size-[7.75rem] rounded-lg rotate-[-20deg] scale-0 group-hover:scale-100 duration-500">
+                </div>
+            </a>
+          </div>
+          <!-- ####### -->
+          <div class="my-[1.5rem] md:my-[0] group transition-all duration-500">
+            <a href="#" class="duration-500 md:flex md:justify-between md:items-center group-hover:translate-y-[-2rem]">
+              <div>
+                <h2 class="font-bold text-3xl md:text-5xl inline-flex">Consumer Tech
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 mt-[10px] ms-2 hidden md:group-hover:inline-flex tansition-all duration-500">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>            
+                </h2>
+                <p class=" md:text-2xl opacity-100 md:opacity-0 group-hover:opacity-100 duration-500">
+                  Making your everyday apps a little more delightful
+                </p>
+              </div>
+              <div class="hidden md:block">
+                <img src="https://framerusercontent.com/images/WfbdnrZqaG3U0ApUh267aovHPkM.png" alt=""class="size-[7.75rem] rounded-lg rotate-[-20deg] scale-0 group-hover:scale-100 duration-500">
+              </div>
+          </a>
+        </div>
+        <!-- #### -->
+        <div class="group transition-all duration-500">
+          <a href="#" class="duration-500 md:flex md:justify-between md:items-center group-hover:translate-y-[-2rem]">
+            <div>
+              <h2 class="font-bold text-3xl md:text-5xl inline-flex">Fintech
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 mt-[10px] ms-2 hidden md:group-hover:inline-flex tansition-all duration-500">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                </svg>            
+              </h2>
+              <p class="md:text-2xl opacity-100 md:opacity-0 group-hover:opacity-100 duration-500">
+                Providing new ways to share, save, invest, and manage money
+              </p>
+            </div>
+            <div class="hidden md:block">
+              <img src="https://framerusercontent.com/images/HvWiUbj7oQTinXfTDRTJIjzX1g.png" alt=""class="size-[7.75rem] rounded-lg rotate-[-20deg] scale-0 group-hover:scale-100 duration-500">
+            </div>
+        </a>
+      </div>
+      <!-- ### -->
+      <div class=" my-[1.5rem] md:my-0 group transition-all duration-500">
+        <a href="#" class="duration-500 md:flex md:justify-between md:items-center group-hover:translate-y-[-2rem]">
+          <div>
+            <h2 class="font-bold text-3xl md:text-5xl inline-flex">Healthcare
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 mt-[10px] ms-2 hidden md:group-hover:inline-flex tansition-all duration-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+              </svg>            
+            </h2>
+            <p class="md:text-2xl opacity-100 md:opacity-0 group-hover:opacity-100 duration-500">
+              Working to make life healthier and care better
+            </p>
+          </div>
+          <div class="hidden md:block">
+            <img src="https://framerusercontent.com/images/rRbmsVfYsVQfbAw3TRkNUUTF67o.png" alt=""class="size-[7.75rem] rounded-lg rotate-[-20deg] scale-0 group-hover:scale-100 duration-500">
+          </div>
+      </a>
+    </div>
+    <!-- ### -->
+    <div class="group transition-all duration-500">
+      <a href="#" class="duration-500 md:flex md:justify-between md:items-center group-hover:translate-y-[-2rem]">
+        <div>
+          <h2 class="font-bold text-3xl md:text-5xl inline-flex">Media
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 mt-[10px] ms-2 hidden md:group-hover:inline-flex tansition-all duration-500">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>            
+          </h2>
+          <p class="md:text-2xl opacity-100 md:opacity-0 group-hover:opacity-100 duration-500">
+            Delivering culture, news, and entertainment
+          </p>
+        </div>
+        <div class="hidden md:block">
+          <img src="https://framerusercontent.com/images/Iqy1zeTy2AH75PP3XcaCBiGTwk.png" alt=""class="size-[7.75rem] rounded-lg rotate-[-20deg] scale-0 group-hover:scale-100 duration-500">
+        </div>
+    </a>
+  </div>
+  <!-- ### -->
+  <div class=" mb-[2.5rem] mt-[1.5rem] md:mt-0 group transition-all duration-500">
+    <a href="#" class="duration-500 md:flex md:justify-between md:items-center group-hover:translate-y-[-2rem]">
+      <div>
+        <h2 class="font-bold md:text-5xl inline-flex">Startup
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 mt-[10px] ms-2 hidden md:group-hover:inline-flex tansition-all duration-500">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>            
+        </h2>
+        <p class="md:text-2xl opacity-100 md:opacity-0 group-hover:opacity-100 duration-500">
+          Helping founders dream big
+        </p>
+      </div>
+      <div class="hidden md:block">
+        <img src="https://framerusercontent.com/images/KWGmc1HURvx1ZKDIp4qFc0M2mY.png" alt=""class="size-[7.75rem] rounded-lg rotate-[-20deg] scale-0 group-hover:scale-100 duration-500">
+      </div>
+  </a>
+  </div>
+        </div>
+      </div>
+     </section>
+  
+     <!-- services section end -->
+  
+     <!-- projects section start -->
+  
+     <section class="relative z-10 my-[2rem] px-[3%] md:px-[1%]">
+      <div class="max-w-screen-sm md:max-w-[900px] mx-auto border-b-4 border-slate-950 pb-[2.5rem]">
+          <p class="text-2xl italic text-slate-950" style="font-family:var(--ff-base)">
+            Projects
+          </p>
+          <h2 class="text-3xl md:text-5xl font-bold my-[1.3rem] text-slate-950">
+            Selected works
+          </h2>
+          <p class="text-2xl font-normal md:font-semibold text-slate-950">
+            Years of experience to create unique design in agile and fast manner
+          </p>
+          <div class="relative my-[2rem]">
+             <a href="#">
+              <img src="img/Nature.jpg" alt="nature_img">
+             <span class="absolute top-[1rem] right-[1rem] size-[2.5rem] rounded-full bg-slate-950 text-white flex justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+            </svg>
+            </span>
+             </a>
+             <div class="my-[2rem]">
+              <h2 class="text-4xl text-slate-950 font-bold hover:underline transition-all duration-400">
+                The Nature
+              </h2>
+              <p class="text-slate-950 font-semibold my-[1.1rem]">
+                Pushing creative boundaries and technologies, you've come to the right place
+              </p>
+              <ul class=" md:flex transition-all duration-400">
+                <li class="bg-slate-950 md:bg-transparent text-white md:text-slate-950 text-center md:text-left rounded-full md:border-2 md:border-slate-950 md:rounded-lg  md:hover:bg-slate-950 md:hover:text-white transition-all duration-500">
+                  <a href="#"class="py-2 px-2 font-semibold">3D Design</a>
+                </li>
+                <li class="my-4 md:my-0 md:mx-[1.3rem] bg-slate-950 md:bg-transparent text-white md:text-slate-950 text-center md:text-left rounded-full md:border-2 md:border-slate-950 md:rounded-lg  md:hover:bg-slate-950 md:hover:text-white transition-all duration-500">
+                  <a href="#"class="py-2 px-2 font-semibold">Marketing</a>
+                </li>
+                <li class="bg-slate-950 md:bg-transparent text-white md:text-slate-950 text-center md:text-left rounded-full md:border-2 md:border-slate-950 md:rounded-lg  md:hover:bg-slate-950 md:hover:text-white transition-all duration-500">
+                  <a href="#"class=" py-2 px-2 font-semibold">Social Media</a>
+                </li>
+                <li class="my-4 md:my-0 md:mx-[1.3rem] bg-slate-950 md:bg-transparent text-white md:text-slate-950 text-center md:text-left rounded-full md:border-2 md:border-slate-950 md:rounded-lg  md:hover:bg-slate-950 md:hover:text-white transition-all duration-500">
+                  <a href="#"class="py-2 px-2 font-semibold">Video & Web</a>
+                </li>
+                <li class="bg-slate-950 md:bg-transparent text-white md:text-slate-950 text-center md:text-left rounded-full md:border-2 md:border-slate-950 md:rounded-lg  md:hover:bg-slate-950 md:hover:text-white transition-all duration-500">
+                  <a href="#"class="py-2 px-2 font-semibold">Photo</a>
+                </li>
+              </ul>
+             </div>
+          </div>
+          <div class="my-[3rem] flex flex-col md:flex-row gap-[2rem] justify-between">
+            <div class="w-full md:w-1/2">
+              <div class="mb-4 relative">
+                <img src="https://framerusercontent.com/images/zYsu0RmIoAFJEsDVG1LJnbHd2Kw.jpg?scale-down-to=512" alt="" class="h-[20rem] w-full object-cover">
+                <span class="absolute top-[1rem] right-[1rem] size-[2.5rem] rounded-full bg-slate-950 text-white flex justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+                </span>
+              </div>
+              <h2 class="text-3xl md:text-5xl text-slate-950 font-bold transition-all duration-400 md:hover:underline">
+                Countertouch
+              </h2>
+              <p class=" text-[1.3rem] font-semibold text-slate-950 my-[1.5rem]">
+                Years of experience to create unique design in agile and fast manner
+              </p>
+              <ul class=" md:flex transition-all duration-400">
+                <li class="bg-slate-950 md:bg-transparent text-white md:text-slate-950 text-center md:text-left rounded-full md:border-2 md:border-slate-950 md:rounded-lg  md:hover:bg-slate-950 md:hover:text-white transition-all duration-500 mb-4 md:mb-0 md:me-4">
+                  <a href="#"class="py-2 px-2 font-semibold"> Branding</a>
+                </li>
+                <li class="bg-slate-950 md:bg-transparent text-white md:text-slate-950 text-center md:text-left rounded-full md:border-2 md:border-slate-950 md:rounded-lg  md:hover:bg-slate-950 md:hover:text-white transition-all duration-500">
+                  <a href="#"class="py-2 px-2 font-semibold"> Design</a>
+                </li>
+               </ul> 
+            </div>
+            <div class="w-full md:w-1/2">
+              <div class="mb-4 relative">
+                <img src="https://framerusercontent.com/images/RZA4Z6XBaWvAk0auyovOFvHeO4.jpg?scale-down-to=512" alt="" class="h-[20rem] w-full object-cover">
+                <span class="absolute top-[1rem] right-[1rem] size-[2.5rem] rounded-full bg-slate-950 text-white flex justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+                </span>
+              </div>
+              <h2 class="text-3xl md:text-5xl text-slate-950 font-bold transition-all duration-400 md:hover:underline">
+                Bizantine
+              </h2>
+              <p class="text-[1.3rem] font-semibold text-slate-950 my-[1.5rem]">
+                This way, we can cut out all the project management
+              </p>
+              <ul class=" md:flex transition-all duration-400">
+                <li class="bg-slate-950 md:bg-transparent text-white md:text-slate-950 text-center md:text-left rounded-full md:border-2 md:border-slate-950 md:rounded-lg  md:hover:bg-slate-950 md:hover:text-white transition-all duration-500">
+                  <a href="#"class="py-2 px-2 font-semibold">Video & Web</a>
+                </li>
+                <li class="bg-slate-950 md:bg-transparent text-white md:text-slate-950 text-center md:text-left rounded-full md:border-2 md:border-slate-950 md:rounded-lg  md:hover:bg-slate-950 md:hover:text-white transition-all duration-500 my-4 md:my-0 md:mx-4">
+                  <a href="#"class="py-2 px-2 font-semibold"> Strategy</a>
+                </li>
+                <li class="bg-slate-950 md:bg-transparent text-white md:text-slate-950 text-center md:text-left rounded-full md:border-2 md:border-slate-950 md:rounded-lg  md:hover:bg-slate-950 md:hover:text-white transition-all duration-500">
+                  <a href="#"class="py-2 px-2 font-semibold"> Design</a>
+                </li>
+               </ul> 
+            </div>
+          </div>
+          <div class="md:flex md:justify-center md:items-center mt-[2.4rem] mb-5">
+            <a href="#" role="button" class="block md:inline-block text-center md:flex md:items-center px-4 py-2 border-2 border-black rounded-full text-white bg-slate-950 text-2xl font-semibold group transition-all duration-400 hover:bg-slate-950 hover:text-white">See all Projects 
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" ms-2 pt-2 size-0 transition-all duration-400 md:group-hover:size-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>          
+            </a>
+          </div>
+      </div>
+     </section>
+  
+     <!-- projects section end -->
+  
+     <!-- testimonials start -->
+  
+     <section class="relative z-10 px-[3%] md:px-[1%]">
+      <div class="max-w-screen-sm md:max-w-[900px] mx-auto border-b-2 border-slate-950">
+        <p class="text-slate-950italic italic font-semibold text-2xl"style="font-family: var(--ff-base);">
+          Testimonials
+        </p>
+        <h2 class="text-3xl md:text-5xl font-bold text-slate-950 my-5">
+          Clients About Us
+        </h2>
+        <p class="text-2xl md:text-3xl md:font-bold text-slate-950 leading-8">
+            <span>&ldquo;</span>The Bureau impressive expertise and strategy advisory were crucial to achieving our goals. The experience was great in all dimensions.<span>&rdquo;</span>
+        </p>
+        <div class="flex items-center my-[2rem]">
+          <div class=" me-7">
+            <img src="https://framerusercontent.com/images/Ri2T1oGkCqmk73HDgshEH0JGWU.png" alt="" class="size-[4.5rem] rounded-full">
+          </div>
+          <div>
+            <h3 class="text-4xl fotn-bold text-slate-950 mb-4">
+              xavier Kim
+            </h3>
+            <p class="text-[1.2rem]">CEO at Pixsellz</p>
+          </div>
+        </div>
+      </div>
+     </section>
+  
+     <!-- testimonials end -->
+  
+     <!-- career section start -->
+  
+     <section class="relative z-10 my-[2.5rem]">
+      <div class="max-w-screen-sm md:max-w-[900px] mx-auto px-[3%] md:px-[1%]">
+        <p class="italic font-semibold text-2xl text-slate-950" style="font-family: var(--ff-base)">
+          Career
+        </p>
+        <h2 class="text-3xl md:text-5xl font-bold text-slate-950 my-5">
+           Join the team!
+        </h2>
+        <p class="text-2xl text-slate-950">
+          Pushing creative boundaries and technologies, you've come to the right place.
+        </p>
+        <div class="">
+          <a href="#">
+            <h2 class=" group flex items-center text-3xl md:text-6xl text-slate-950 font-bold transition-all duration-500 my-5">
+              WebGL Developer
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" font-bold size-0  ms-2 mt-3 md:mt-[8px] group-hover:size-6 md:group-hover:size-8 duration-500">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
+              </svg>          
+            </h2>
+          </a>
+            <div class=" mt-5 flex flex-col md:flex-row gap-[3.5rem] flex duration-500 transition-all">
+              <div class="md:w-3/5 ">
+                <p class="text-[1.1rem] text-slate-950 mb-5">
+                  We are is looking for a Front-end developer with an in-depth knowledge of React.js and an affinity for the creative side of development. We are looking for someone who will be able to develop and maintain creative websites, contribute to internal projects and planning discussions, develop reusable code and libraries for future use, document code and collaborate with the UI/UX Designers, in order to improve the final product.
+                </p>
+                <ul class="list-disc list-inside hidden md:block">
+                  <li class="text-[1.2rem] text-slate-950">
+                    Minimum 4 years experience in creative development
+                  </li>
+                  <li class="text-[1.2rem] text-slate-950">
+                    Minimum 2 years experience with React.js
+                  </li>
+                  <li class="text-[1.2rem] text-slate-950">
+                    Excellent knowledge of modern HTML, CSS, and Javascript (ES6)
+                  </li>
+                  <li class="text-[1.2rem] text-slate-950">
+                    Good knowledge of animation libraries (ex: GSAP) & build tools (Node.js, Webpack)
+                  </li>
+                  <li class="text-[1.2rem] text-slate-950">
+                    Basic knowledge of Git, and popular CMS platforms
+                  </li>
+                  <li class="text-[1.2rem] text-slate-950">
+                    Bonus: WebGL, Canvas, CSS-in-JS, GraphQL, SSR/SSG
+                  </li>
+                </ul>
+              </div>
+              <div class="md:w-2/5 flex flex-col justify-center items-center ps-auto md:items-start md:justify-start mb-7">
+                <address class="mb-5">
+                  <p class="text-2xl text-slate-950">Job Status: Full time</p>
+                  <p class="text-2xl text-slate-950 my-3">Experience: 4 years</p>
+                  <p class="text-2xl text-slate-950">Location: Palo Alto, CA</p>
+                </address>
+                <a href="#" role="button" class="flex items-center md:text-2xl font-bold bg-slate-950 text-white group transition-all duration-500 p-6 inline-flex text-center rounded-full">
+                  Apply now
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-0 transition-all duration-500 group-hover:size-5 ms-2 mt-3">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                  </svg>                
+                </a>
+              </div>
+            </div>
+            <div class="mt-[3rem] flex flex-col md:flex-row justify-between items-center border-b-2 border-slate-950 pb-[5rem]">
+              <div>
+                <h2 class=" text-center md:text-left text-slate-950 text-4xl md:text-6xl mb-4 font-bold">6</h2>
+                <p class="text-slate-950 text-slate-950 text-semibold text-2xl">Years</p>
+              </div>
+              <div class="my-6 md:my-0">
+                <h2 class="text-center md:text-left text-slate-950 text-4xl md:text-6xl mb-4 font-bold">85</h2>
+                <p class="text-slate-950 text-slate-950 text-semibold text-2xl">Clients</p>
+              </div>
+              <div class="mb-6 md:mb-0">
+                <h2 class="text-center md:text-left text-slate-950 text-4xl md:text-6xl mb-4 font-bold">359</h2>
+                <p class="text-slate-950 text-slate-950 text-semibold text-2xl">projects</p>
+              </div>
+              <div>
+                <h2 class=" text-center md:text-left text-slate-950 text-4xl md:text-6xl mb-4 font-bold">7</h2>
+                <p class="text-slate-950 text-slate-950 text-semibold text-2xl">awards</p>
+              </div>
+            </div>
+        </div>
+      </div>
+     </section>
+  
+     <!-- carer section end -->
+  
+     <!-- blog section start -->
+  
+     <section class="relative z-10 px-[3%] md:px-[1%]">
+      <div class="max-w-screen-sm md:max-w-[900px] mx-auto border-b-2 border-slate-950 pb-[3rem]">
+        <div>
+          <p style="font-family: var(--ff-base)" class="text-slate-950 font-semibold italic">
+            Blog
+          </p>
+          <h2 class="text-4xl md:text-5xl font-bold text-slate-950 my-5">
+            Latest articles
+          </h2>
+        </div>
+        <div class="flex flex-col md:flex-row gap-[.800rem]">
+          <div class="md:w-1/3 border rounded-lg shadow-sm">
+            <a href="#">
+              <img src="https://framerusercontent.com/images/lXvNACXPAgKDNRtPZ84B6GGpjw.png" alt="" class="h-[20rem] w-full object-cover">
+            </a>
+            <p class="text-[1.1rem] my-3 text-slate-950">
+              May 20, 2023
+            </p>
+            <a href="#" class="group transition-all duration-400">
+              <h2 class="text-[1.7rem] text-slate-950 font-bold duration-400 group-hover:underline">
+                How to Solve Issues With Design Web
+              </h2>
+            </a>
+            <p class=" text-[1.4rem] mt-3 md:text-2xl font-semibold text-slate-950">
+              Used by these companies to maximize their online presence and reach their goals
+            </p>
+          </div>
+  
+  
+          <div class="md:w-1/3">
+            <a href="#">
+              <img src="https://framerusercontent.com/images/iojqvh6KFHe4pi4FLeXrlUeqig.png" alt="" class="h-[20rem] w-full object-cover object-center">
+            </a>
+            <p class="text-[1.1rem] my-3 text-slate-950">
+              May 10, 2023
+            </p>
+            <a href="#" class="group transition-all duration-400">
+              <h2 class="text-[1.3rem] md:text-[1.7rem] mb-3 text-slate-950 font-bold duration-400 group-hover:underline">
+                24 Hours to Improving Design Web
+              </h2>
+            </a>
+            <p class=" text-[1.2rem] md:text-[1.4rem] font-semibold text-slate-950">
+              This article explores the potential of design startup web to revolutionize the way businesses create
+            </p>
+          </div>
+  
+  
+          <div class="md:w-1/3 border rounded-lg shadow-sm">
+            <a href="#">
+              <img src="https://framerusercontent.com/images/Veeh5aMDG6xdpf4zPeqcgRqGSg.png" alt="" class="h-[20rem] w-full object-cover object-center">
+            </a>
+            <p class="text-[1.1rem] my-3 text-slate-950">
+              Mar 16, 2023
+            </p>
+            <a href="#" class="group transition-all duration-400">
+              <h2 class="text-[1.7rem] text-slate-950 font-bold duration-400 group-hover:underline mb-3">
+                The Most Innovative Things Happening With Design Web
+              </h2>
+            </a>
+            <p class="text-[1.4rem] font-semibold text-slate-950">
+              It provides an in-depth look at the tools and strategies 
+            </p>
+          </div>
+        </div>
+        <div class="md:flex md:justify-center md:items-center mt-[3rem] mb-5">
+          <a href="#" role="button" class="block md:inline-block text-center md:flex md:items-center px-4 py-2 border-2 border-black rounded-full text-white bg-slate-950 text-2xl font-semibold group transition-all duration-400 hover:bg-slate-950 hover:text-white">See all Articles 
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" ms-2 pt-2 size-0 transition-all duration-400 md:group-hover:size-8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+            </svg>          
+          </a>
+        </div>
+      </div>
+     </section>
+  
+     <!-- blog section end -->
+  
+  
+     <!-- contact section start -->
+  
+     <section class="relative z-10 px-[3%] md:px-[1%] py-[3rem]">
+      <div class="max-w-screen-sm md:max-w-[900px] mx-auto border-b-2 border-slate-950">
+        <p class="italic text-2xl font-semibold">
+          Contacts
+        </p>
+        <h2 class="text-3xl md:text-5xl text-slate-950 font-bold my-4">
+          Work with us
+        </h2>
+        <p class=" text-2xl md:text-2xl text-slate-950">
+          We are eager to learn about your organization and to help you achieve a well-defined out-of-the-box visual strategy.
+        </p>
+        <div class="max-w-[30rem] py-10">
+          <p class="text-[1.2rem] md:text-2xl font-semibold">You can contact us at:</p>
+          <h2 class="text-3xl text-slate-950 font-bold my-3">
+            info@pixsellz.io
+          </h2>
+          <a href="#" role="button" class="flex items-center md:text-2xl font-bold bg-slate-950 text-white group transition-all duration-500 p-4 inline-flex text-center rounded-full mt-5">
+            Get in touch
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-0 transition-all duration-500 group-hover:size-5 ms-2 mt-3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+            </svg>                
+          </a>
+        </div>
+        <div class=" my-[5rem] flex flex-col md:flex-row justify-center md:justify-between items-start gap-[2rem]">
+          <div class="md:w-1/3">
+            <p class="text-slate-950 text-2xl">Based in</p>
+            <h2 class="flex items-center text-3xl text-slate-950 font-bold my-3">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 me-3 bg-slate-950 text-white rounded-lg">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+              </svg>
+              Palo Alto, CA
+            </h2>
+            <p class="text-slate-950 text-2xl mb-3">
+              250 Hamilton Avenue Palo Alto, CA 94301
+            </p>
+            <p class="text-slate-950 text-2xl">
+              (201) 555-0124
+            </p>
+          </div>
+  
+          <div class="md:w-1/3 flex flex-col md:ps-[3rem]">
+            <p class="text-slate-950 text-2xl font-semibold">Our socials</p>
+            <div class="flex flex-col">
+              <a href="#" class="text-3xl font-bold text-slate-950 mt-4 transition-all duration-400 hover:underline">
+                Instagram
+              </a>
+              <a href="#" class="text-3xl font-bold text-slate-950 mt-4 transition-all duration-400 hover:underline">
+                Dribbble
+              </a>
+              <a href="#" class="text-3xl font-bold text-slate-950 mt-4 transition-all duration-400 hover:underline">
+                Twitter
+              </a>
+            </div>
+          </div>
+          <div class="md:w-1/3 self-baseline flex justify-end">
+            <a href="#" class="flex items-center ps-auto">
+              <span style="font-family: var(--ff-base)" class="italic font-semibold">the</span>
+              <span class="font-bold text-2xl lg:text-3xl text-slate-950 me-2 lg:me-[1.2rem]">Bureau</span>
+              <img src="img/download (16).svg" alt="logo svg" class="size-[1.8rem]">
+          </div>
+        </div>
+      </div>
+     </section>
+  
+     <!-- contact section end -->
+</main>
+
+<!-- main end -->
+
+   <!-- footer section start -->
+
+   <footer class="relative z-10 mt-[5rem]">
+    <div class=" px-[2%] p-3 pt-[2rem] flex flex-col md:flex-row md:justify-between items-center bg-slate-950 text-white md:bg-transparent md:text-slate-950">
+      <p class="text-[1rem] font-semibold mb-3 md:mb-0 text-center md:text-left">
+        <span class="me-1">&copy;</span>
+        2018 / 2023 Pixsellz – Design Goodies Team
+      </p>
+      <ul class=" flex flex-col md:flex-row md:items-end">
+        <li><a href="#" class="text-[1rem] transition-all duration-400 hover:underline font-semibold">Privacy Policy</a></li>
+        <li class="my-4 md:my-0 md:mx-4"><a href="#"class=" text-[1rem] transition-all duration-400 hover:underline font-semibold">Cookie Policy</a></li>
+        <li class=""><a href="#" class=" text-[1rem] transition-all duration-400 hover:underline font-semibold relative">Framer
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="inline-flex size-3 text-white md:text-slate-950 absolute right-[-.7rem] top-[.4rem]">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg>          
+        </a></li>
+        <li class=" mt-4 md:mt-0 md:ms-4"><a href="#" class=" text-[1rem] font-semibold transition-all duration-400 hover:underline relative">Get Template
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" inline-flex top-[.4rem] size-3 text-white md:text-slate-950 absolute right-[-.7rem]">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+          </svg>
+        </a></li>
+      </ul>
+    </div>
+   </footer>
+
+   <!-- footer section end -->
+   <a href="#" class=" hidden md:flex items-center px-3 rounded-lg z-100 fixed bottom-[2rem] right-[1rem] bg-slate-200 text-slate-950">
+      <img src="img/flash.svg" alt="" class="size-[1rem]">
+     Made in Framer
+   </a>
+
+   <!-- Js -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+          
+    </script>
+ </body>
+</html> 
+
+
